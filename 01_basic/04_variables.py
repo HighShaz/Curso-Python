@@ -58,11 +58,8 @@ CODIGO_POSTAL = "08310"
 is_user_logged_in: bool = True
 print(is_user_logged_in)
 # Aún así, Python tiene tipado dinámico y no estático... Con lo que se puede modificar el tipo
-<<<<<<< HEAD
 is_user_logged_in = "now a string"
-=======
 is_user_logged_in = 29
->>>>>>> 3e8a125f6ae5af944c4e1b968525d7e3fca3864a
 print(is_user_logged_in)
 # Se puede modificar el editor en ajustes para que te avise si detecta que modificar el tipado
 # de una variable previamente tipada (Type Cheking Mode - Strict) pero se sigue ejecutando
