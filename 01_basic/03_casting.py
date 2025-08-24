@@ -5,6 +5,9 @@
 # TIENE UN TIPADO FUERTE
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 print("Conversión de tipos:")
 print(type(int("100"))) # La str "100" la convertimos a int
 print(type(str(2)))     # El int 2 lo convertimos a str

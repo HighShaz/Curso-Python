@@ -3,8 +3,8 @@
 # Valores lógicos: True (verdadero) y False (falso)
 # Fundamentales para el control de flujo y la lógica en programación
 ###
-import os
-os.system("clr")
+from os import system
+if system("clear") != 0: system("cls")
 
 
 print("\nValores booleanos típicos")

@@ -5,6 +5,9 @@
 # int, float, complex, str, bool, Nonetype, list, dict, set, tuple, range,...
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 print("int:")
 print(10)
 print(0)

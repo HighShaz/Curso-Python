@@ -3,8 +3,8 @@
 # Permiten ejecutar bloques de código solo si se cumplen ciertas condiciones
 ###
 
-import os # importar módulo del S.O., para acceder a cualquier comando del sistema
-os.system("clear") # ejecutamos el comando "clear" al incio del programa para que
+from os import system # importar módulo del S.O., para acceder a cualquier comando del sistema
+if system("clear") != 0: system("cls") # ejecutamos el comando "clear" al incio del programa para que
                    # se borren las ejecuciones anteriores de la consola
 
 print("Sentencia simple condicional")

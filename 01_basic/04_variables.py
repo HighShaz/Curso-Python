@@ -4,6 +4,9 @@
 # Python es uin lenguaje de tipado dinámico y de tipado fuerte.
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 # Para asignar una variable solo hace falta:
 my_name = "victor"
 print(my_name)

@@ -4,6 +4,9 @@
 # Sirve para mostrar información en consola
 ##
 
+from os import system
+if system("clear") != 0: system("cls")
+
 # Utilizar comilla doble o simple según lo que se vaya a imprimir. Si queremos poner algo con
 # comilla simple dentro, utilizar la comilla doble para todo y viceversa.
 print("Hola, 'Mundo'!")

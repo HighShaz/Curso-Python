@@ -4,6 +4,9 @@
 # la consola SIEMPRE en cadena de texto
 ###
 
+from os import system
+if system("clear") != 0: system("cls")
+
 print("Hola, ¿cómo te llamas?:")
 nombre = input()
 print(f"Hola {nombre}, ¿cómo estás?")
